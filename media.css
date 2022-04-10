@@ -312,7 +312,7 @@
     }
  
     /*pag blog*/
-    article{
+    #pag-blog{
         max-width: 280px;
         width: 100%;
     }
@@ -724,7 +724,7 @@
     }
 
     /*pag blog*/
-    article{
+    #pag-blog{
         max-width: 750px;
         width: 100%;
     }
@@ -1166,7 +1166,7 @@
 
     /*pag blog*/
 
-    article{
+    #pag-blog{
         max-width: 750px;
         width: 100%;
         min-height: 700px;
@@ -1479,7 +1479,7 @@
 
     /*pag blog*/
 
-    article{
+    #pag-blog{
         max-width: 1020px;
         width: 100%;
         min-height: 700px;
@@ -1642,7 +1642,7 @@
 
      /*pag blog*/
 
-    article{
+     #pag-blog{
         max-width: 1900px;
         width: 100%;
         min-height: 700px;
