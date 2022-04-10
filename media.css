@@ -1,0 +1,1753 @@
+@media screen and (max-width:282px){
+    i{
+         font-size: 1em;
+     }
+     
+     .header-container .logo{
+         font-size: 1.2em;
+         text-align: start;
+         margin-top: 20px;
+         width: 90%;
+     }
+ 
+     
+     .header-container {
+         height: auto;
+         justify-content: space-between;
+         align-items: flex-start;
+         width: 90%;
+ 
+     }
+ 
+     #nav{
+         width: 100%;  
+         margin-bottom: 15px; 
+         text-align: center;
+     }
+ 
+     #menu {
+         flex-direction: column;
+         justify-content: center;  
+     }
+ 
+     #menu li:nth-child(4){
+         align-self: center;
+         width: 250px;
+     }
+ 
+     #menu li{
+         margin-left: 0;
+         margin-top:10px;
+         font-size: 1em;
+     }
+ 
+     #menu li:nth-child(4){
+         max-width: 100px;
+         width: 100%;
+         border-radius: 10px;
+         padding: 8px;
+ 
+     }
+ 
+     /*botao menu*/
+ 
+     #btn-mobile {
+         display: block;
+         position: absolute;
+         right: 15px;
+         top: 11px;
+ 
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 1.7em;
+        cursor: pointer;
+     }
+ 
+     #btn-mobile:hover{
+         color:#F1C111 ;
+ 
+     }
+ 
+     #nav.active #menu{
+         display: flex;
+         height: calc(100vh - 70px);
+         visibility: visible;
+         overflow-y:auto;
+     }
+ 
+     #menu{
+         display: flex;
+         height:0px;
+         z-index:1000;
+         transition:0.8s all;
+         visibility: hidden;
+         overflow-y: hidden;
+         gap: 20px;
+     }
+ 
+ 
+     /*banner*/
+     .banner{
+         align-items: center;
+         width: 90%;
+     }
+     
+     .textos{
+         max-width: 280px;
+         width: 100%;
+     }
+ 
+     .textos h2{
+         line-height: 40px;
+         font-size: 1em;
+     }
+ 
+     .textos button {
+         width: 90%;
+         padding: 8px;
+         border-radius: 15px;
+         font-weight: 500;
+         font-size: 0.7em;
+     }
+ 
+     .textos p{
+         width: 80%;
+         font-size: 0.7em;
+         margin-bottom: 50px;
+         text-align: center;
+     }
+ 
+     .textos p i{
+         font-size: 1em;
+     }
+ 
+     .rotate {
+         height: 260px;
+     }
+ 
+     .rotate img{
+         width: 85%;
+         top: 20px;
+         right: 25px;
+ 
+     }
+ 
+     /*studio*/
+     .studio-container{
+         max-width: 280px;
+         width: 90%;
+     }
+ 
+ 
+ 
+     .studio{
+         flex-direction: column;
+     }
+ 
+ 
+     .studio h3{
+         width: 100%;
+         font-size: 1.2em;
+         line-height: 30px;
+     }
+ 
+     .studio p{
+         font-size: 1em;
+     }
+ 
+     .studio img{
+        max-width: 260px;
+     }
+ 
+     /*slider*/
+ 
+     .slider{
+         max-width: 260px;
+         width: 100%;
+         height: 50vh;
+     }
+ 
+     .slider h3{
+         font-size: 1.2em;
+         font-weight: 500;
+     }
+ 
+     
+     .slide img{
+         width: 100%;
+         height: 150px;
+         object-fit: cover;
+     }
+ 
+     .navigation-manual{
+         max-width: 260px;
+         width: 100%;
+         margin-top: -300px;
+         align-self: center;
+     }
+ 
+ 
+     /*testimonials*/
+     .testimonials{
+         flex-direction: column;
+         justify-content: center;
+         max-width: 260px;
+         width: 100%;
+         height: 100vh;
+     }
+ 
+     .testimonials-container{
+         justify-content: center;
+         flex-direction: column;
+     }
+ 
+     .image img{
+         max-width: 260px;
+         width: 100%;
+     }
+ 
+     .depoiment{
+         max-width: 260px;
+         width: 100%;
+     }
+ 
+ 
+     .depoiment h4{
+         font-size: 1em;
+         margin-top: 30px;
+         text-align: center;
+     }
+ 
+     .depoiment blockquote p{
+         width: 100%;
+         font-size: 1.3em;
+         font-weight: 400;
+         line-height: 30px;
+     }
+ 
+     /*footer*/
+     .container-footer{
+         max-width: 260px;
+         width: 100%;
+         height: 160vh;
+         flex-direction: column;
+         align-items: center;
+         gap: 50px;
+     }
+ 
+     .title-footer{
+         max-width: 260px;
+     }
+     
+    .contact, .studioLocal{
+        height: 100px;
+    }
+ 
+    .copyright, .infos, .socials{
+        width: 100%;
+        height: 50px;
+        text-align: start;
+    }
+ 
+    .copyright p, .copyright h6{
+        width: 100%;
+        font-size: 1em;
+ 
+    }
+ 
+    .infos a{
+        display: inline-block;
+        padding-top: -50px;
+        padding: 0px 0px 0px 10px;
+        text-align: center;
+    }
+ 
+    /*pag contato*/
+ 
+    main {
+        max-width: 270px;
+        width: 100%;
+    }
+ 
+    .contato p, .contato h2{
+        max-width: 275px;
+    }
+    
+ 
+    .contato h2{
+        font-size: 1.8em;
+    }
+ 
+    .contato p {
+        font-size: 1em;
+    }
+ 
+    form{
+        max-width: 275px;
+        width: 100%;
+        margin: 10px;
+    }
+ 
+    form input[type="text"], form input[type="email"]{
+        width: 100%;
+        font-size: 1em;
+        padding: 25px;
+    }
+ 
+    textarea{
+        width: 275px;
+        font-size: 1em;
+    }
+ 
+    .button-contato{
+        max-width: 245px;
+        padding: 10px;
+    }
+ 
+    .mapa iframe{
+        height: 80vh;
+        margin-top: 70px;
+    }
+ 
+    /*pag blog*/
+    article{
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .container-blog{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+ 
+    .title-blog{
+        margin-top: 0px;
+        font-size: 0.9em;
+    }
+ 
+    .imgs-blog{
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    .blog-textos{
+       margin-top: 50px;
+    }
+ 
+    .imgs-lateral{
+        max-width: 140px;
+        object-fit: cover;
+    }
+ 
+ 
+    .container-textos{
+        max-width: 93px;
+        width: 100%;
+        height: 130px;
+        font-size: 1em;
+        margin: 10px;
+    }
+    
+    .container-textos div a{
+        font-size: 1.1em;
+    }
+
+    .design h4{
+        font-size: 0.5em;
+    }
+ 
+    #texto-img-header{
+        max-width: 250px;
+        top:30px;
+        left: 10px;
+        font-size: 0.9em;
+    }
+ 
+    .img-principal{
+     max-width: 270px;
+     width: 100%;
+ }
+ 
+     figure.img-principal{
+         max-width: 270px;
+     }
+
+     /*newsletter*/
+
+     .newsletter{
+         max-width: 270px;
+         width: 100%;
+     }
+
+     .img-newsletter, .textos-newsletter{
+         max-width: 250px;
+         width: 100%;
+         height: auto;
+     }
+
+     .img-newsletter{
+        object-fit: cover;
+     }
+
+     .textos-newsletter {
+         margin: 10px 0px;
+     }
+
+     .textos-newsletter h2{
+         font-size: 1.7em;
+         line-height: 40px;
+         height: auto;
+     }
+ }
+ 
+ @media screen and (min-width: 285px) and (max-width:759px){
+     
+     i{
+         font-size: 1em;
+     }
+     
+     .header-container  .logo{
+         font-size: 1.5em;
+         text-align: start;
+         margin-top: 20px;
+         width: 90%;
+     }
+ 
+     
+     .header-container {
+         height: auto;
+         justify-content: space-between;
+         align-items: center;
+         width: 90%;
+ 
+     }
+ 
+     #nav{
+         width: 100%;  
+         margin-bottom: 15px; 
+         text-align: center;
+     }
+ 
+     #menu {
+         flex-direction: column;
+         justify-content: center;  
+     }
+ 
+     #menu li:nth-child(4){
+         align-self: center;
+         width: 250px;
+     }
+ 
+     #menu li{
+         margin-left: 0;
+         margin-top:10px;
+         font-size: 1em;
+     }
+ 
+     #menu li:nth-child(4){
+         max-width: 100px;
+         width: 100%;
+         border-radius: 10px;
+         padding: 8px;
+ 
+     }
+ 
+        /*botao menu*/
+ 
+     #btn-mobile {
+         display: block;
+         position: absolute;
+         right: 10px;
+         top: 11px;
+ 
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        outline: none;
+        font-size: 1.7em;
+        cursor: pointer;
+     }
+ 
+     #btn-mobile:hover{
+         color:#F1C111 ;
+ 
+     }
+ 
+     #nav.active #menu{
+         display: flex;
+         height: calc(100vh - 70px);
+         visibility: visible;
+         overflow-y:auto;
+     }
+ 
+     #menu{
+         display: flex;
+         height:0px;
+         z-index:1000;
+         transition:0.8s all;
+         visibility: hidden;
+         overflow-y: hidden;
+         gap: 20px;
+     }
+ 
+ 
+     /*banner*/
+     .banner{
+         align-items: center;
+         width: 90%;
+     }
+     
+     .textos{
+         max-width: 760px;
+         width: 100%;
+     }
+ 
+     .textos h2{
+         line-height: 40px;
+         font-size: 1.3em;
+     }
+ 
+     .textos button {
+         width: 90%;
+         padding: 8px;
+         border-radius: 20px;
+         font-weight: 500;
+         font-size: 0.9em;
+     }
+ 
+     .textos p{
+         width: 80%;
+         font-size: 0.7em;
+         margin-bottom: 50px;
+         text-align: center;
+     }
+ 
+     .textos p i{
+         font-size: 1em;
+     }
+ 
+     .rotate {
+         height: 280px;
+     }
+ 
+     .rotate img{
+         width: 85%;
+         top: 20px;
+         right: 25px;
+ 
+     }
+ 
+     /*studio*/
+     .studio-container{
+         padding-top: 50px ;
+         max-width: 760px;
+         width: 90%;
+     }
+ 
+ 
+ 
+     .studio{
+         flex-direction: column;
+         width: 100%;
+     }
+ 
+ 
+     .studio h3{
+         width: 100%;
+         font-size: 1.5em;
+         line-height: 30px;
+     }
+ 
+     .studio p{
+         font-size: 1.2em;
+         width: 100%;
+     }
+ 
+     .studio img{
+        max-width: 760px;
+        width: 100%;
+     }
+ 
+     /*slider*/
+ 
+     .slider{
+         max-width: 760px;
+         width: 90%;
+         height: 50vh;
+     }
+ 
+     .slider h3{
+         font-size: 1.5em;
+         font-weight: 600;
+     }
+ 
+     
+     .slide img{
+         width: 100%;
+         height: 230px;
+         object-fit: cover;
+     }
+ 
+     .navigation-manual{
+         max-width: 760px;
+         width: 90%;
+         margin-top: -230px;
+         align-self: center;
+     }
+ 
+ 
+     /*testimonials*/
+     .testimonials{
+         flex-direction: column;
+         justify-content: center;
+         max-width: 760px;
+         width: 90%;
+         height: 100vh;
+     }
+ 
+     .testimonials-container{
+         justify-content: center;
+         flex-direction: column;
+     }
+ 
+     .image img{
+         max-width: 600px;
+         width: 100%;
+     }
+ 
+     .depoiment{
+         max-width: 760px;
+         width: 90%;
+     }
+ 
+ 
+     .depoiment h4{
+         font-size: 1.4em;
+         margin-top: 30px;
+         text-align: center;
+     }
+ 
+     .depoiment blockquote p{
+         width: 100%;
+         font-size: 1.4em;
+         font-weight: 400;
+         line-height: 30px;
+     }
+ 
+     /*footer*/
+     .container-footer{
+         max-width: 760px;
+         width: 90%;
+         height: 160vh;
+         flex-direction: column;
+         align-items: center;
+         gap: 50px;
+     }
+ 
+     .title-footer{
+         max-width: 760px;
+         width: 90%;
+         padding-top: 20px;
+     }
+     
+    .contact, .studioLocal{
+        height: 100px;
+    }
+ 
+    .copyright, .infos, .socials{
+        width: 100%;
+        height: 50px;
+        text-align: start;
+    }
+ 
+    .copyright p, .copyright h6{
+        width: 100%;
+        font-size: 1em;
+ 
+    }
+ 
+    .infos a{
+        display: inline-block;
+        padding-top: -50px;
+        padding: 0px 0px 0px 10px;
+        text-align: center;
+    }
+ 
+    
+    /*pag contato*/
+ 
+    main {
+        max-width: 760px;
+        width: 90%;
+    }
+ 
+    .contato p, .contato h2{
+        max-width: 750px;
+    }
+    
+ 
+    .contato h2{
+        font-size: 1.9em;
+    }
+ 
+    .contato p {
+        font-size: 1.2em;
+    }
+ 
+    form{
+        max-width: 740px;
+        width: 100%;
+    }
+ 
+    form input[type="text"], form input[type="email"]{
+        width: 100%;
+        font-size: 1.2em;
+        padding: 25px;
+    }
+ 
+    textarea{
+        width: 100%;
+        font-size: 1.2em;
+    }
+ 
+    .button-contato{
+        max-width: 245px;
+        padding: 10px;
+    }
+ 
+    .mapa iframe{
+        height: 80vh;
+        margin-top: 70px;
+    }
+
+    /*pag blog*/
+    article{
+        max-width: 750px;
+        width: 100%;
+    }
+
+    .container-blog{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+ 
+    .title-blog{
+        margin-top: 0px;
+        font-size: 0.9em;
+    }
+ 
+    .imgs-blog{
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    .blog-textos{
+       margin-top: 50px;
+       max-width: 760px;
+       width: 100%;
+       align-items: flex-start;
+    }
+ 
+    .imgs-lateral{
+        max-width: 150px;
+        object-fit: cover;
+    }
+ 
+ 
+    .container-textos{
+        max-width: 760px;
+        width: 100%;
+        height: 130px;
+        font-size: 1em;
+        margin: 10px;
+    }
+    
+    .container-textos div a{
+        font-size: 1.2em;
+    }
+
+    .design h4{
+        font-size: 1em;
+    }
+ 
+    #texto-img-header{
+        max-width: 760px;
+        width: 100%;
+        top:70px;
+        left: 2px;
+        font-size: 1em;
+    }
+ 
+    .img-principal{
+        width: 100%;
+    }
+ 
+     figure.img-principal{
+        width: 345px;
+      
+     }
+
+     /*newsletter*/
+
+     .newsletter{
+         max-width: 760px;
+         width: 100%;
+     }
+
+     .img-newsletter, .textos-newsletter{
+         max-width: 345px;
+         width: 100%;
+         height: auto;
+         margin: 10px;
+     }
+
+     .img-newsletter{
+        object-fit: cover;
+     }
+
+     .textos-newsletter {
+         margin: 10px 0px;
+     }
+
+     .textos-newsletter h2{
+         font-size: 1.7em;
+         line-height: 40px;
+         height: auto;
+     }
+
+     .btn-newsletter{
+         border-radius: 28px;
+     }
+ }
+ 
+ 
+ @media screen and (min-width:760px) and (max-width:1020px){
+   
+     i{
+         font-size: 1em;
+     }
+     
+     .header-container  .logo{
+         font-size: 2em;
+         text-align: start;
+         margin-top: 20px;
+         width: 90%;
+     }
+ 
+     
+     .header-container {
+         max-width: 1020px;
+         height: auto;
+         justify-content: space-between;
+         align-items: center;
+         width: 90%;
+         /*height: 8vh;*/
+ 
+     }
+ 
+     #nav{
+         width: 100%;  
+         margin-bottom: 15px; 
+         text-align: center;
+     }
+ 
+     #menu {
+         flex-direction: column;
+         justify-content: center;  
+     }
+ 
+     #menu li:nth-child(4){
+         align-self: center;
+         width: 250px;
+     }
+ 
+     #menu li{
+         margin-left: 0;
+         margin-top:10px;
+         font-size: 1em;
+     }
+ 
+     #menu li:nth-child(4){
+         max-width: 100px;
+         width: 100%;
+         border-radius: 10px;
+         padding: 8px;
+ 
+     }
+   /*botao menu*/
+ 
+     #btn-mobile {
+         display: block;
+         position: absolute;
+         right: 18px;
+         top: 15px;
+ 
+         background-color: transparent;
+         color: #fff;
+         border: none;
+         outline: none;
+         font-size: 2em;
+         cursor: pointer;
+     }
+ 
+     #btn-mobile:hover{
+         color:#F1C111 ;
+ 
+     }
+ 
+     #nav.active #menu{
+         display: flex;
+         height: calc(40vh - 70px);
+         visibility: visible;
+         overflow-y:auto;
+     }
+ 
+     #menu{
+         display: flex;
+         height:0px;
+         z-index:1000;
+         transition:0.8s all;
+         visibility: hidden;
+         overflow-y: hidden;
+         gap: 20px;
+     }
+ 
+     #menu li a{
+         font-size: 1.3em;
+     }
+ 
+ 
+     #menu li:nth-child(4){
+         width: 100%;
+         font-size: 1em;
+     }
+ 
+     /*banner*/
+     .banner{
+         align-items: center;
+         width: 90%;
+         max-width: 1020px;
+         height: 90vh;
+     }
+     
+     .textos{
+         max-width: 550px;
+         width: 100%;
+     }
+ 
+     .textos h2{
+         line-height: 60px;
+         font-size: 1.8em;
+         font-weight: 400;
+     }
+ 
+     .textos button {
+         width: 70%;
+         padding: 12px;
+         border-radius: 25px;
+         font-weight: 500;
+         font-size: 1em;
+     }
+ 
+     .textos p{
+         width: 70%;
+         font-size: 0.7em;
+         margin-bottom: 50px;
+         text-align: center;
+     }
+ 
+     .textos p i{
+         font-size: 1em;
+     }
+ 
+     .rotate {
+         height: 320px;
+     }
+ 
+     .rotate img{
+         max-width: 450px;
+         width: 100%;
+         top: -125px;
+         right: 25px;
+         
+ 
+     }
+ 
+     /*studio*/
+     .studio-container{
+         max-width: 720px;
+         width: 100%;
+     }
+ 
+ 
+ 
+     .studio{
+         flex-direction: column;
+         width: 100%;
+         margin-top: 30px;
+     }
+ 
+ 
+     .studio h3{
+         width: 100%;
+         font-size: 2em;
+         line-height: 40px;
+         font-weight: 600;
+     }
+ 
+     .studio p{
+         font-size: 1.6em;
+         width: 100%;
+     }
+ 
+     .studio img{
+        max-width: 760px;
+        height: 500px;
+        width: 100%;
+     }
+ 
+     /*slider*/
+ 
+     .slider{
+         max-width: 760px;
+         width: 90%;
+         height: 50vh;
+     }
+ 
+     .slider h3{
+         font-size: 2em;
+         font-weight: 400;
+     }
+ 
+     
+     .slide img{
+         width: 100%;
+         height: 250px;
+         object-fit: cover;
+     }
+ 
+     .navigation-manual{
+         max-width: 760px;
+         width: 90%;
+         margin-top: -230px;
+         align-self: center;
+     }
+ 
+ 
+     /*testimonials*/
+     .testimonials{
+         flex-direction: column;
+         justify-content: center;
+         max-width: 1020px;
+         width: 90%;
+         height: 100vh;
+     }
+ 
+     .testimonials-container{
+         justify-content: center;
+         flex-direction: column;
+     }
+ 
+     .image img{
+         max-width: 600px;
+         width: 100%;
+     }
+ 
+     .depoiment{
+         max-width: 760px;
+         width: 90%;
+     }
+ 
+ 
+     .depoiment h4{
+         font-size: 1.8em;
+         margin-top: 30px;
+         text-align: center;
+     }
+ 
+     .depoiment blockquote p{
+         width: 100%;
+         font-size: 1.6em;
+         font-weight: 400;
+         line-height: 30px;
+     }
+ 
+     /*footer*/
+     .container-footer{
+         max-width: 1020px;
+         width: 90%;
+         height: 60vh;
+         flex-direction: row;
+         align-items: flex-start;
+         gap: 40px;
+     }
+ 
+     .title-footer{
+         padding-top: 60px;
+         max-width: 760px;
+         width: 90%;
+     }
+     
+    .contact, .studioLocal{
+        height: 120px;
+    }
+ 
+    .copyright, .infos, .socials{
+        width: 100%;
+        height: 50px;
+        text-align: start;
+    }
+ 
+    .copyright p, .copyright h6{
+        width: 100%;
+        font-size: 1em;
+ 
+    }
+ 
+    .infos a{
+        display: inline-block;
+        padding-top: -50px;
+        padding: 0px 0px 0px 10px;
+        text-align: center;
+    }
+ 
+    
+    /*pag contato*/
+ 
+    main {
+        max-width: 900px;
+        width: 100%;
+    }
+ 
+    .contato p, .contato h2{
+        max-width: 390px;
+    }
+    
+ 
+    .contato h2{
+        font-size: 2.2em;
+        font-weight: 500;
+    }
+ 
+    .contato p {
+        font-size: 1.2em;
+    }
+ 
+    form{
+        max-width: 600px;
+        width: 100%;
+        margin: 10px;
+    }
+ 
+    form input[type="text"], form input[type="email"]{
+        width: 100%;
+        font-size: 1em;
+        padding: 25px;
+    }
+ 
+    textarea{
+        width: 600px;
+        font-size: 1em; 
+    }
+ 
+    .button-contato{
+        max-width: 320px;
+        padding: 15px;
+    }
+ 
+    .mapa iframe{
+        height: 80vh;
+        margin-top: 70px;
+    }
+
+    /*pag blog*/
+
+    article{
+        max-width: 750px;
+        width: 100%;
+        min-height: 700px;
+        height: 40vh;
+    }
+
+    .container-blog{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+ 
+    .title-blog{
+        margin-top: 0px;
+        font-size: 0.9em;
+    }
+ 
+    .imgs-blog{
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    .blog-textos{
+       margin-top: 30px;
+       max-width: 760px;
+       width: 100%;
+       align-items: flex-start;
+    }
+ 
+    .imgs-lateral{
+        max-width: 150px;
+        object-fit: cover;
+    }
+ 
+ 
+    .container-textos{
+        max-width: 760px;
+        width: 100%;
+        height: 130px;
+        font-size: 1em;
+        margin: 10px;
+    }
+    
+    .container-textos div a{
+        font-size: 1.2em;
+    }
+
+    .design h4{
+        font-size: 1em;
+    }
+ 
+    #texto-img-header{
+        max-width: 760px;
+        width: 100%;
+        top:70px;
+        left: 2px;
+        font-size: 1.2em;
+    }
+ 
+    .img-principal{
+        width: 100%;
+    }
+ 
+     figure.img-principal{
+        width: 390px;
+      
+     }
+
+     /*newsletter*/
+
+     .newsletter{
+         max-width: 760px;
+         width: 100%;
+     }
+
+     .img-newsletter, .textos-newsletter{
+         max-width: 345px;
+         width: 100%;
+         height: auto;
+         margin: 10px;
+     }
+
+     .img-newsletter{
+        object-fit: cover;
+     }
+
+     .textos-newsletter {
+         margin: 10px 0px;
+     }
+
+     .textos-newsletter h2{
+         font-size: 1.7em;
+         line-height: 40px;
+         height: auto;
+     }
+
+     .btn-newsletter{
+         border-radius: 28px;
+     }
+
+ }
+ 
+ 
+ @media screen and (min-width: 1023px) and (max-width:1380px){
+     i{
+         font-size: 1em;
+     }
+     
+     .header-container {
+        max-width: 1380px;
+        width: 90%;
+    }
+ 
+    .header-container  .logo{
+        font-size: 2em;
+    }
+ 
+    #menu li a{
+        font-size: 1em;
+    }
+ 
+     /*banner*/
+     .banner{
+         align-items: center;
+         width: 90%;
+         max-width: 1380px;
+         height: 100vh;
+     }
+     
+     .textos{
+         max-width: 480px;
+         width: 100%;
+         height: 400px;
+     }
+ 
+     .textos h2{
+         line-height: 60px;
+         font-size: 2em;
+         font-weight: 400;
+     }
+ 
+     .textos button {
+         width: 60%;
+         padding: 12px;
+         border-radius: 25px;
+         font-weight: 500;
+         font-size: 1em;
+     }
+ 
+     .textos p{
+         width: 60%;
+         font-size: 0.7em;
+         margin-bottom: 50px;
+         text-align: center;
+     }
+ 
+     .textos p i{
+         font-size: 1em;
+     }
+ 
+     .rotate {
+         height: 320px;
+     }
+ 
+     .rotate img{
+         width: 90%;
+         top: -165px;
+         right: 25px;
+         
+ 
+     }
+ 
+     /*studio*/
+     .studio-container{
+         max-width: 530px;
+         width: 100%;
+         height: 100vh;
+     }
+ 
+ 
+ 
+     .studio{
+         flex-direction: column;
+         width: 100%;
+         margin-top: 30px;
+     }
+ 
+ 
+     .studio h3{
+         width: 100%;
+         font-size: 1.8em;
+         line-height: 40px;
+         font-weight: 600;
+     }
+ 
+     .studio p{
+         font-size: 1.3em;
+         width: 100%;
+     }
+ 
+     .studio img{
+        max-width: 500px;
+        width: 100%;
+        padding-bottom: 20px ;
+     }
+ 
+     /*slider*/
+ 
+     .slider{
+         max-width: 760px;
+         width: 90%;
+         height: 40vh;
+     }
+ 
+     .slider h3{
+         font-size: 2em;
+         font-weight: 400;
+     }
+ 
+     
+     .slide img{
+         width: 100%;
+         height: 250px;
+         object-fit: cover;
+     }
+ 
+     .navigation-manual{
+         max-width: 760px;
+         width: 90%;
+         margin-top: -230px;
+         align-self: center;
+     }
+ 
+ 
+     /*testimonials*/
+     .testimonials{
+         flex-direction: row;
+         justify-content: space-between;
+         max-width: 1024px;
+         width: 100%;
+         height: 90vh;
+     }
+ 
+     .testimonials-container{
+         justify-content: center;
+         flex-direction: row;
+     }
+ 
+     .image img{
+         max-width: 450px;
+         width: 100%;
+     }
+ 
+     .depoiment{
+         max-width: 450px;
+         width: 100%;
+     }
+ 
+ 
+     .depoiment h4{
+         font-size: 1.1em;
+         margin-top: 30px;
+         text-align: start;
+     }
+ 
+     .depoiment blockquote p{
+         width: 100%;
+         font-size: 1.6em;
+         font-weight: 400;
+         line-height: 30px;
+     }
+ 
+     /*footer*/
+     .container-footer{
+         max-width: 1020px;
+         width: 90%;
+         height: 80vh;
+         flex-direction: row;
+         align-items: center;
+         gap: 30px;
+     }
+ 
+     .title-footer{
+         padding-top: 60px;
+         max-width: 380px;
+         width: 90%;
+     }
+     
+    .contact, .studioLocal{
+        padding-top: 60px;
+    }
+ 
+    .copyright, .infos, .socials{
+        width: 100%;
+        height: 20px;
+        text-align: center;
+    }
+ 
+    .copyright p, .copyright h6{
+        width: 100%;
+        font-size: 1em;
+ 
+    }
+ 
+    .infos a{
+        display: inline-block;
+        padding-top: -50px;
+        padding: 0px 0px 0px 10px;
+        text-align: center;
+    }
+
+    /*pag blog*/
+
+    article{
+        max-width: 1020px;
+        width: 100%;
+        min-height: 700px;
+        height: 40vh;
+    }
+
+    .container-blog{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+ 
+    .title-blog{
+        margin-top: 0px;
+        font-size: 0.9em;
+    }
+ 
+    .imgs-blog{
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    .blog-textos{
+       margin-top: 30px;
+       max-width: 760px;
+       width: 100%;
+       align-items: flex-start;
+    }
+ 
+    .imgs-lateral{
+        max-width: 150px;
+        object-fit: cover;
+    }
+ 
+ 
+    .container-textos{
+        max-width: 760px;
+        width: 100%;
+        height: 130px;
+        font-size: 1em;
+        margin: 10px;
+    }
+    
+    .container-textos div a{
+        font-size: 1.2em;
+    }
+
+    .design h4{
+        font-size: 1em;
+    }
+ 
+    #texto-img-header{
+        max-width: 380px;
+        width: 100%;
+        top:200px;
+        left: 10px;
+        font-size: 1.5em;
+    }
+ 
+    .img-principal{
+        width: 100%;
+    }
+ 
+     figure.img-principal{
+        width: 590px;
+      
+     }
+
+     /*newsletter*/
+
+     .newsletter{
+         max-width: 760px;
+         width: 100%;
+     }
+
+     .img-newsletter, .textos-newsletter{
+         max-width: 345px;
+         width: 100%;
+         height: auto;
+         margin: 10px;
+     }
+
+     .img-newsletter{
+        object-fit: cover;
+     }
+
+     .textos-newsletter {
+         margin: 10px 0px;
+     }
+
+     .textos-newsletter h2{
+         font-size: 1.7em;
+         line-height: 40px;
+         height: auto;
+     }
+
+     .btn-newsletter{
+         border-radius: 28px;
+     }
+    
+
+    
+ }
+ 
+ @media screen and (min-width: 1500px) and (max-width: 2600px){
+    .header-container {
+         max-width: 1200px;
+         width: 100%;
+         justify-content: space-between;
+         height: 8vh;
+     }
+ 
+     #menu li a {
+         font-size: 1.1em;
+     }
+ 
+     #menu li:nth-child(4){
+         color: #F1C111;
+         font-weight: 800;
+         border: 3px solid #F1C111;
+         border-radius: 25px;
+         width: 140px;
+         text-align: center;
+         font-size: 1.1em;
+     }
+ 
+ 
+     /*banner*/
+ 
+     .banner {
+         height: 80vh;
+         justify-content: space-between;
+     }
+ 
+     .rotate{
+         height: 420px;
+     }
+ 
+     .rotate img{
+         max-width: 700px;
+         right: 100px;
+     }
+ 
+     /*slides*/
+ 
+     .container-slider{
+         height: 100vh;
+     }
+ 
+     .slider, .slider img {
+         max-width: 1150px;
+         width: 100%;
+         height: 700px;
+     }
+ 
+     .navigation-manual{
+         max-width: 1250px;
+         width: 90%;
+         margin-top: -70px;
+     }
+
+     /*pag blog*/
+
+    article{
+        max-width: 1900px;
+        width: 100%;
+        min-height: 700px;
+        height: 40vh;
+    }
+
+    .container-blog{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+ 
+    .title-blog{
+        margin-top: 0px;
+        font-size: 1em;
+    }
+ 
+    .imgs-blog{
+        flex-direction: column;
+        gap: 10px;
+    }
+ 
+    .blog-textos{
+       margin-top: 30px;
+       max-width: 1200px;
+       width: 100%;
+       align-items: flex-start;
+    }
+ 
+    .imgs-lateral{
+        max-width: 160px;
+        object-fit: cover;
+    }
+ 
+ 
+    .container-textos{
+        max-width: 760px;
+        width: 100%;
+        height: 130px;
+        font-size: 1.1em;
+        margin: 10px;
+    }
+    
+    .container-textos div a{
+        font-size: 1.2em;
+    }
+
+    .design h4{
+        font-size: 1em;
+    }
+ 
+    #texto-img-header{
+        max-width: 390px;
+        width: 100%;
+        top:250px;
+        left: 10px;
+        font-size: 1.5em;
+    }
+ 
+    .img-principal{
+        width: 100%;
+    }
+ 
+     figure.img-principal{
+        width: 690px;
+      
+     }
+
+     /*newsletter*/
+
+     .newsletter{
+         max-width: 1200px;
+         width: 100%;
+     }
+
+     .img-newsletter, .textos-newsletter{
+         max-width: 450px;
+         width: 100%;
+         height: auto;
+         margin: 10px;
+         font-size: 1.2em;
+     }
+
+     .img-newsletter{
+        object-fit: cover;
+     }
+
+     .textos-newsletter {
+         margin: 10px 0px;
+     }
+
+     .textos-newsletter h2{
+         font-size: 1.9em;
+         line-height: 40px;
+         height: auto;
+     }
+
+     .btn-newsletter{
+         border-radius: 28px;
+     }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
